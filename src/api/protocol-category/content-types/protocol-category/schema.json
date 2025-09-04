@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "protocol_categories",
+  "info": {
+    "singularName": "protocol-category",
+    "pluralName": "protocol-categories",
+    "displayName": "ProtocolCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

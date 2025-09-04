@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_season_wellness_screen_key_value_pairs",
+  "info": {
+    "displayName": "keyValuePair",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seasonal_wellnesses",
+  "info": {
+    "singularName": "seasonal-wellness",
+    "pluralName": "seasonal-wellnesses",
+    "displayName": "Seasonal Wellness"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "overview": {
+      "type": "component",
+      "component": "season-wellness-screen.key-value-pair",
+      "repeatable": true
+    },
+    "points": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::point.point"
+    },
+    "techniques": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technique.technique"
+    },
+    "tips": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tip.tip"
+    },
+    "isPremium": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}

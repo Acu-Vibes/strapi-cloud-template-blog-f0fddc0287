@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_emotional_toolkit_screen_heading_description_frequencies",
+  "info": {
+    "displayName": "headingDescriptionFrequency"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "frequency": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

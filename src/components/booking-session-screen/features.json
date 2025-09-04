@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_booking_session_screen_features",
+  "info": {
+    "displayName": "features",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "bulletPoint": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

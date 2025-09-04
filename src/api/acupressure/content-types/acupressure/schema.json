@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "acupressures",
+  "info": {
+    "singularName": "acupressure",
+    "pluralName": "acupressures",
+    "displayName": "Acupressure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "points": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::point.point",
+      "mappedBy": "acupressure"
+    }
+  }
+}

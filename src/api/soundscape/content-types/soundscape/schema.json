@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "soundscapes",
+  "info": {
+    "singularName": "soundscape",
+    "pluralName": "soundscapes",
+    "displayName": "Soundscape"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "audios"
+      ]
+    },
+    "isPremium": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "frequency": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_emotional_toolkit_screen_heading_t_descriptions",
+  "info": {
+    "displayName": "headingTDescription"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

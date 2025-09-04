@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "points",
+  "info": {
+    "singularName": "point",
+    "pluralName": "points",
+    "displayName": "Point"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "acupressure": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::acupressure.acupressure",
+      "inversedBy": "points"
+    },
+    "location": {
+      "type": "text",
+      "required": true
+    },
+    "statement": {
+      "type": "text",
+      "required": true
+    },
+    "outcome": {
+      "type": "string",
+      "required": true
+    },
+    "emotional_toolkit": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::emotional-toolkit.emotional-toolkit",
+      "inversedBy": "points"
+    }
+  }
+}

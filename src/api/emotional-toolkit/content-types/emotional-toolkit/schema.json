@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emotional_toolkits",
+  "info": {
+    "singularName": "emotional-toolkit",
+    "pluralName": "emotional-toolkits",
+    "displayName": "Emotional Toolkit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "fields": {
+      "type": "component",
+      "component": "emotional-toolkit-screen.heading-description",
+      "repeatable": true
+    },
+    "points": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::point.point",
+      "mappedBy": "emotional_toolkit"
+    },
+    "isPremium": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}

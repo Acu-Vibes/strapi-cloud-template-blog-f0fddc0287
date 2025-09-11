@@ -55,6 +55,9 @@
       "relation": "manyToOne",
       "target": "api::emotional-toolkit.emotional-toolkit",
       "inversedBy": "points"
+    },
+    "statement_heading": {
+      "type": "string"
     }
   }
 }

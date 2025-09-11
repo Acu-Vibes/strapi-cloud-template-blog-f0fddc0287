@@ -696,6 +696,7 @@ export interface ApiPointPoint extends Struct.CollectionTypeSchema {
     outcome: Schema.Attribute.String & Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
     statement: Schema.Attribute.Text & Schema.Attribute.Required;
+    statement_heading: Schema.Attribute.String;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

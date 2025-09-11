@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-09-11T07:51:17.005Z"
+    "x-generation-date": "2025-09-11T08:12:53.173Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -7767,6 +7767,9 @@
                     }
                   }
                 },
+                "statement_heading": {
+                  "type": "string"
+                },
                 "createdAt": {
                   "type": "string",
                   "format": "date-time"
@@ -9753,6 +9756,9 @@
                       }
                     }
                   }
+                },
+                "statement_heading": {
+                  "type": "string"
                 },
                 "createdAt": {
                   "type": "string",
@@ -16905,6 +16911,9 @@
                 ],
                 "example": "string or id"
               },
+              "statement_heading": {
+                "type": "string"
+              },
               "locale": {
                 "type": "string"
               },
@@ -17855,6 +17864,9 @@
                         }
                       }
                     },
+                    "statement_heading": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -17981,6 +17993,9 @@
                 "type": "string"
               }
             }
+          },
+          "statement_heading": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -18973,6 +18988,9 @@
                       }
                     }
                   }
+                },
+                "statement_heading": {
+                  "type": "string"
                 },
                 "createdAt": {
                   "type": "string",
@@ -20651,6 +20669,9 @@
                       }
                     }
                   }
+                },
+                "statement_heading": {
+                  "type": "string"
                 },
                 "createdAt": {
                   "type": "string",

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-09-11T08:12:53.173Z"
+    "x-generation-date": "2025-09-12T11:41:44.302Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -10519,6 +10519,12 @@
               "app_name": {
                 "type": "string"
               },
+              "protocols_acupoint_description": {
+                "type": "string"
+              },
+              "protocols_acupoint_heading_secondary": {
+                "type": "string"
+              },
               "locale": {
                 "type": "string"
               },
@@ -13806,6 +13812,12 @@
           "app_name": {
             "type": "string"
           },
+          "protocols_acupoint_description": {
+            "type": "string"
+          },
+          "protocols_acupoint_heading_secondary": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -16605,6 +16617,12 @@
                   "type": "string"
                 },
                 "app_name": {
+                  "type": "string"
+                },
+                "protocols_acupoint_description": {
+                  "type": "string"
+                },
+                "protocols_acupoint_heading_secondary": {
                   "type": "string"
                 },
                 "createdAt": {

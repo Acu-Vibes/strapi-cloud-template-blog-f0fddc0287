@@ -567,6 +567,12 @@
     },
     "app_name": {
       "type": "string"
+    },
+    "protocols_acupoint_description": {
+      "type": "text"
+    },
+    "protocols_acupoint_heading_secondary": {
+      "type": "string"
     }
   }
 }

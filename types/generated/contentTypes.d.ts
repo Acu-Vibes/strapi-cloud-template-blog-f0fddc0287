@@ -627,11 +627,23 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     protocols_acupoint_heading_secondary: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     seasonalWellness_acupoint_heading: Schema.Attribute.String;
+    sidebar_nav_bookSession_icon: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     sidebar_nav_bookSession_text: Schema.Attribute.String;
     sidebar_nav_logout_text: Schema.Attribute.String;
+    sidebar_nav_loved_icon: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     sidebar_nav_loved_text: Schema.Attribute.String;
     sidebar_nav_member_since_text: Schema.Attribute.String;
+    sidebar_nav_profile_icon: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     sidebar_nav_profile_text: Schema.Attribute.String;
+    sidebar_nav_viewProducts_icon: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     sidebar_nav_viewProducts_text: Schema.Attribute.String;
     slider_background_image: Schema.Attribute.Media<'images'>;
     slider_signIn_button_text: Schema.Attribute.String;

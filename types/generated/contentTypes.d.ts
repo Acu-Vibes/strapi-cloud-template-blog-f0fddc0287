@@ -672,6 +672,9 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    yourProfile_background_image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     yourProfile_email_placeholder_text: Schema.Attribute.String;
     yourProfile_heading: Schema.Attribute.String;
     yourUsername_label: Schema.Attribute.String;

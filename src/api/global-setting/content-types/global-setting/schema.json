@@ -450,7 +450,7 @@
     "yourProfile_heading": {
       "type": "string"
     },
-    "yourProfile_email_placeholder_text": {
+    "yourEmail_label": {
       "type": "string"
     },
     "yourUsername_label": {

@@ -623,6 +623,16 @@
         "videos",
         "audios"
       ]
+    },
+    "bookSession_Image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

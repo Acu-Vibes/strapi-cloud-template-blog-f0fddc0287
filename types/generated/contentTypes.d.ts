@@ -505,6 +505,9 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     bookSession_features_heading: Schema.Attribute.String;
     bookSession_footer: Schema.Attribute.String;
     bookSession_heading: Schema.Attribute.String;
+    bookSession_Image: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     bookSession_link: Schema.Attribute.String;
     createAccount_heading_primary: Schema.Attribute.String;
     createAccount_label_confirmPassword: Schema.Attribute.String;

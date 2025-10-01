@@ -25,11 +25,6 @@
       "relation": "oneToMany",
       "target": "api::point.point"
     },
-    "protocol_category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::protocol-category.protocol-category"
-    },
     "isPremium": {
       "type": "boolean",
       "required": true,
@@ -42,6 +37,12 @@
     "protocol_settings_description": {
       "type": "text",
       "required": true
+    },
+    "protocol_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::protocol-category.protocol-category",
+      "inversedBy": "protocols"
     }
   }
 }

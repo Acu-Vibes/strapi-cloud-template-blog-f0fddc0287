@@ -15,6 +15,12 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "protocols": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::protocol.protocol",
+      "mappedBy": "protocol_category"
     }
   }
 }

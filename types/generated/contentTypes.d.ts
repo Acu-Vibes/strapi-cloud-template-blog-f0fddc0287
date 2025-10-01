@@ -747,6 +747,7 @@ export interface ApiProtocolCategoryProtocolCategory
       'api::protocol-category.protocol-category'
     > &
       Schema.Attribute.Private;
+    protocols: Schema.Attribute.Relation<'oneToMany', 'api::protocol.protocol'>;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
@@ -783,7 +784,7 @@ export interface ApiProtocolProtocol extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     points: Schema.Attribute.Relation<'oneToMany', 'api::point.point'>;
     protocol_category: Schema.Attribute.Relation<
-      'oneToOne',
+      'manyToOne',
       'api::protocol-category.protocol-category'
     >;
     protocol_settings_description: Schema.Attribute.Text &

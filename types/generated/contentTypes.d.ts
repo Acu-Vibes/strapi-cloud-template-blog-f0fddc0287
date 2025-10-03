@@ -616,6 +616,7 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     products_howToUseCard_heading_primary: Schema.Attribute.String;
     products_howToUseCard_heading_secondary: Schema.Attribute.String;
     products_product: Schema.Attribute.Component<'product.products', true>;
+    products_view_button_link: Schema.Attribute.String;
     products_view_button_text: Schema.Attribute.String;
     profile_menu_email_text: Schema.Attribute.String;
     profile_menu_privacyPolicy_text: Schema.Attribute.String;

@@ -515,6 +515,9 @@
     "products_view_button_text": {
       "type": "string"
     },
+    "products_view_button_link": {
+      "type": "string"
+    },
     "termsConditions_heading": {
       "type": "string"
     },

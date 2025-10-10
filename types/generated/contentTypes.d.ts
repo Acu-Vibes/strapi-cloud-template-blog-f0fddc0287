@@ -835,6 +835,7 @@ export interface ApiSeasonalWellnessSeasonalWellness
     >;
     points: Schema.Attribute.Relation<'oneToMany', 'api::point.point'>;
     publishedAt: Schema.Attribute.DateTime;
+    sort: Schema.Attribute.Integer;
     techniques: Schema.Attribute.Relation<
       'oneToMany',
       'api::technique.technique'

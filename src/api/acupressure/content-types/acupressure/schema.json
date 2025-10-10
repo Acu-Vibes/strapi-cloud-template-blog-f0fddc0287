@@ -21,6 +21,9 @@
       "relation": "oneToMany",
       "target": "api::point.point",
       "mappedBy": "acupressure"
+    },
+    "sort": {
+      "type": "integer"
     }
   }
 }

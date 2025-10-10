@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-10-03T08:11:20.449Z"
+    "x-generation-date": "2025-10-10T12:29:26.558Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -6902,6 +6902,9 @@
                   "example": "string or id"
                 }
               },
+              "sort": {
+                "type": "integer"
+              },
               "locale": {
                 "type": "string"
               },
@@ -7617,6 +7620,9 @@
                         }
                       }
                     },
+                    "sort": {
+                      "type": "integer"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -7713,6 +7719,9 @@
                     },
                     "isPremium": {
                       "type": "boolean"
+                    },
+                    "sort": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",
@@ -7823,6 +7832,9 @@
                 }
               }
             }
+          },
+          "sort": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",
@@ -8885,6 +8897,9 @@
               "isPremium": {
                 "type": "boolean"
               },
+              "sort": {
+                "type": "integer"
+              },
               "locale": {
                 "type": "string"
               },
@@ -9607,6 +9622,9 @@
                         }
                       }
                     },
+                    "sort": {
+                      "type": "integer"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -9703,6 +9721,9 @@
                     },
                     "isPremium": {
                       "type": "boolean"
+                    },
+                    "sort": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",
@@ -9816,6 +9837,9 @@
           },
           "isPremium": {
             "type": "boolean"
+          },
+          "sort": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",
@@ -19452,6 +19476,9 @@
                         "isPremium": {
                           "type": "boolean"
                         },
+                        "sort": {
+                          "type": "integer"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -19561,6 +19588,9 @@
                     }
                   }
                 }
+              },
+              "sort": {
+                "type": "integer"
               },
               "createdAt": {
                 "type": "string",
@@ -19757,6 +19787,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "sort": {
+                "type": "integer"
               },
               "locale": {
                 "type": "string"
@@ -20480,6 +20513,9 @@
                         }
                       }
                     },
+                    "sort": {
+                      "type": "integer"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -20576,6 +20612,9 @@
                     },
                     "isPremium": {
                       "type": "boolean"
+                    },
+                    "sort": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",
@@ -20759,6 +20798,9 @@
                         }
                       }
                     },
+                    "sort": {
+                      "type": "integer"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -20865,6 +20907,9 @@
                 }
               }
             }
+          },
+          "sort": {
+            "type": "integer"
           },
           "createdAt": {
             "type": "string",
@@ -21691,6 +21736,9 @@
                               }
                             }
                           },
+                          "sort": {
+                            "type": "integer"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -21787,6 +21835,9 @@
                           },
                           "isPremium": {
                             "type": "boolean"
+                          },
+                          "sort": {
+                            "type": "integer"
                           },
                           "createdAt": {
                             "type": "string",
@@ -21985,6 +22036,9 @@
                       }
                     }
                   }
+                },
+                "sort": {
+                  "type": "integer"
                 },
                 "createdAt": {
                   "type": "string",
@@ -22893,6 +22947,9 @@
                         }
                       }
                     },
+                    "sort": {
+                      "type": "integer"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -22989,6 +23046,9 @@
                     },
                     "isPremium": {
                       "type": "boolean"
+                    },
+                    "sort": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",

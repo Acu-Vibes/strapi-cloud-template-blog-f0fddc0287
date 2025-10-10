@@ -398,6 +398,7 @@ export interface ApiAcupressureAcupressure extends Struct.CollectionTypeSchema {
       Schema.Attribute.Unique;
     points: Schema.Attribute.Relation<'oneToMany', 'api::point.point'>;
     publishedAt: Schema.Attribute.DateTime;
+    sort: Schema.Attribute.Integer;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -465,6 +466,7 @@ export interface ApiEmotionalToolkitEmotionalToolkit
       Schema.Attribute.Private;
     points: Schema.Attribute.Relation<'oneToMany', 'api::point.point'>;
     publishedAt: Schema.Attribute.DateTime;
+    sort: Schema.Attribute.Integer;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
@@ -793,6 +795,7 @@ export interface ApiProtocolProtocol extends Struct.CollectionTypeSchema {
     protocol_settings_heading: Schema.Attribute.String &
       Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
+    sort: Schema.Attribute.Integer;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

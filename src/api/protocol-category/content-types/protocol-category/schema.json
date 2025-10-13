@@ -21,6 +21,9 @@
       "relation": "oneToMany",
       "target": "api::protocol.protocol",
       "mappedBy": "protocol_category"
+    },
+    "sort": {
+      "type": "integer"
     }
   }
 }

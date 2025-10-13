@@ -752,6 +752,7 @@ export interface ApiProtocolCategoryProtocolCategory
       Schema.Attribute.Private;
     protocols: Schema.Attribute.Relation<'oneToMany', 'api::protocol.protocol'>;
     publishedAt: Schema.Attribute.DateTime;
+    sort: Schema.Attribute.Integer;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

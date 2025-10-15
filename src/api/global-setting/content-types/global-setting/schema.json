@@ -636,6 +636,16 @@
         "videos",
         "audios"
       ]
+    },
+    "premium_subscribe_main_icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

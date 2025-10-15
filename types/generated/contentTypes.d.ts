@@ -602,6 +602,9 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     premium_priceMonth: Schema.Attribute.Decimal;
     premium_priceYear: Schema.Attribute.Decimal;
     premium_subscribe_button_text: Schema.Attribute.String;
+    premium_subscribe_main_icon: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios'
+    >;
     premium_subscribeCard_background_image: Schema.Attribute.Media<'images'>;
     premium_subscribeCard_description: Schema.Attribute.String;
     premium_subscribeCard_heading: Schema.Attribute.String;

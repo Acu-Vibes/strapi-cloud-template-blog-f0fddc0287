@@ -110,6 +110,7 @@ export interface ProductProducts extends Struct.ComponentSchema {
   attributes: {
     description: Schema.Attribute.String;
     heading: Schema.Attribute.String;
+    icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };
 }
 

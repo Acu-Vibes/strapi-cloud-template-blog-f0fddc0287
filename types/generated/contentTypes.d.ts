@@ -540,7 +540,7 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     forgotPassword_sendCode_button_text: Schema.Attribute.String;
     home_emotionalToolkit_cta_heading: Schema.Attribute.String;
     home_emotionalToolkit_cta_icon: Schema.Attribute.Media<'images'>;
-    home_exploreNowCard_backgroundImage: Schema.Attribute.Media<'images'>;
+    home_exploreNowCard_backgroundImage_Json: Schema.Attribute.JSON;
     home_exploreNowCard_exploreNow_cta_text: Schema.Attribute.String;
     home_exploreNowCard_heading: Schema.Attribute.String;
     home_exploreNowCard_image: Schema.Attribute.Media<'images'>;
@@ -611,7 +611,6 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     premium_subscribeNow_link: Schema.Attribute.String;
     privacyPolicy_description: Schema.Attribute.Text;
     privacyPolicy_heading: Schema.Attribute.String;
-    privacyPolicy_save_button_text: Schema.Attribute.String;
     products_discoverProducts_description_primary: Schema.Attribute.Text;
     products_discoverProducts_description_secondary: Schema.Attribute.Text;
     products_discoverProducts_heading: Schema.Attribute.String;
@@ -654,7 +653,6 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     sidebar_nav_viewProducts_text: Schema.Attribute.String;
-    slider_background_image: Schema.Attribute.Media<'images'>;
     slider_signIn_button_text: Schema.Attribute.String;
     slider_signUp_cta_text: Schema.Attribute.String;
     slider_signUp_prompt: Schema.Attribute.String;

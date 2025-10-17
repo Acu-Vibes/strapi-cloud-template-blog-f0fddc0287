@@ -93,13 +93,6 @@
         "images"
       ]
     },
-    "slider_background_image": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "login_heading_primary": {
       "type": "string"
     },
@@ -285,13 +278,6 @@
         "images"
       ]
     },
-    "home_exploreNowCard_backgroundImage": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "home_soundscapes_section_heading": {
       "type": "string"
     },
@@ -461,9 +447,6 @@
     },
     "privacyPolicy_description": {
       "type": "text"
-    },
-    "privacyPolicy_save_button_text": {
-      "type": "string"
     },
     "profile_profileStatus_text": {
       "type": "string"
@@ -646,6 +629,9 @@
         "videos",
         "audios"
       ]
+    },
+    "home_exploreNowCard_backgroundImage_Json": {
+      "type": "json"
     }
   }
 }

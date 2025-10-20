@@ -537,7 +537,7 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     forgotPassword_heading_secondary: Schema.Attribute.String;
     forgotPassword_label_email: Schema.Attribute.String;
     forgotPassword_placeholder_email: Schema.Attribute.String;
-    forgotPassword_sendCode_button_text: Schema.Attribute.String;
+    forgotPassword_sendEmail_button_text: Schema.Attribute.String;
     home_emotionalToolkit_cta_heading: Schema.Attribute.String;
     home_emotionalToolkit_cta_icon: Schema.Attribute.Media<'images'>;
     home_exploreNowCard_backgroundImage_Json: Schema.Attribute.JSON;

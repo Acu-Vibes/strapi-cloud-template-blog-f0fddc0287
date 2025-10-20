@@ -9798,7 +9798,7 @@
               "forgotPassword_placeholder_email": {
                 "type": "string"
               },
-              "forgotPassword_sendCode_button_text": {
+              "forgotPassword_sendEmail_button_text": {
                 "type": "string"
               },
               "forgotPassword_back_cta_text": {
@@ -11849,7 +11849,7 @@
           "forgotPassword_placeholder_email": {
             "type": "string"
           },
-          "forgotPassword_sendCode_button_text": {
+          "forgotPassword_sendEmail_button_text": {
             "type": "string"
           },
           "forgotPassword_back_cta_text": {
@@ -15302,7 +15302,7 @@
                 "forgotPassword_placeholder_email": {
                   "type": "string"
                 },
-                "forgotPassword_sendCode_button_text": {
+                "forgotPassword_sendEmail_button_text": {
                   "type": "string"
                 },
                 "forgotPassword_back_cta_text": {

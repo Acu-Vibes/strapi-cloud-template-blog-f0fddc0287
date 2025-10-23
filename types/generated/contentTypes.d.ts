@@ -532,6 +532,7 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     emotionalToolkit_acupoint_description: Schema.Attribute.Text;
     emotionalToolkit_acupoint_heading: Schema.Attribute.String;
+    emotionalToolkit_heading: Schema.Attribute.String;
     forgotPassword_back_cta_text: Schema.Attribute.String;
     forgotPassword_heading_primary: Schema.Attribute.String;
     forgotPassword_heading_secondary: Schema.Attribute.String;

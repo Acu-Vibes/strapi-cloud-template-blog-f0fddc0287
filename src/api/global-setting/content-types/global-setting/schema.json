@@ -632,6 +632,9 @@
     },
     "home_exploreNowCard_backgroundImage_Json": {
       "type": "json"
+    },
+    "emotionalToolkit_heading": {
+      "type": "string"
     }
   }
 }

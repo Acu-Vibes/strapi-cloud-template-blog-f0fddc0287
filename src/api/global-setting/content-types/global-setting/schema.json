@@ -635,6 +635,12 @@
     },
     "emotionalToolkit_heading": {
       "type": "string"
+    },
+    "protocols_accupoints_heading": {
+      "type": "string"
+    },
+    "seasonwellness_accupoints_heading": {
+      "type": "string"
     }
   }
 }

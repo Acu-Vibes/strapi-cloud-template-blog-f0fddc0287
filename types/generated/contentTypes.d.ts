@@ -631,11 +631,13 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     profile_profileStatus_option_premium_text: Schema.Attribute.String;
     profile_profileStatus_text: Schema.Attribute.String;
     profile_yourProfile_text: Schema.Attribute.String;
+    protocols_accupoints_heading: Schema.Attribute.String;
     protocols_acupoint_description: Schema.Attribute.Text;
     protocols_acupoint_heading: Schema.Attribute.String;
     protocols_acupoint_heading_secondary: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     seasonalWellness_acupoint_heading: Schema.Attribute.String;
+    seasonwellness_accupoints_heading: Schema.Attribute.String;
     sidebar_nav_bookSession_icon: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;

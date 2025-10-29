@@ -38,16 +38,8 @@
       "target": "api::acupressure.acupressure",
       "inversedBy": "points"
     },
-    "location": {
-      "type": "text",
-      "required": true
-    },
     "statement": {
       "type": "text",
-      "required": true
-    },
-    "outcome": {
-      "type": "string",
       "required": true
     },
     "emotional_toolkit": {

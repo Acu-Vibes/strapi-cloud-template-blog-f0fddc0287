@@ -719,8 +719,6 @@ export interface ApiPointPoint extends Struct.CollectionTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::point.point'> &
       Schema.Attribute.Private;
-    location: Schema.Attribute.Text & Schema.Attribute.Required;
-    outcome: Schema.Attribute.String & Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
     statement: Schema.Attribute.Text & Schema.Attribute.Required;
     statement_heading: Schema.Attribute.String;

@@ -20,7 +20,6 @@ export interface EmotionalToolkitScreenHeadingDescription
   attributes: {
     description: Schema.Attribute.RichText & Schema.Attribute.Required;
     heading: Schema.Attribute.String & Schema.Attribute.Required;
-    icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };
 }
 

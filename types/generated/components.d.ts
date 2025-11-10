@@ -107,7 +107,7 @@ export interface ProductProducts extends Struct.ComponentSchema {
     displayName: 'products';
   };
   attributes: {
-    description: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
     heading: Schema.Attribute.String;
     icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
   };

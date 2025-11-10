@@ -885,6 +885,7 @@ export interface ApiSoundscapeSoundscape extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
+    sort: Schema.Attribute.Integer;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

@@ -53,6 +53,9 @@
     },
     "frequency": {
       "type": "string"
+    },
+    "sort": {
+      "type": "integer"
     }
   }
 }

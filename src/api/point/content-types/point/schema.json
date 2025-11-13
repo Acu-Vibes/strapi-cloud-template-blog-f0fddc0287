@@ -42,9 +42,9 @@
       "type": "text",
       "required": true
     },
-    "emotional_toolkit": {
+    "emotional_toolkits": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::emotional-toolkit.emotional-toolkit",
       "inversedBy": "points"
     },

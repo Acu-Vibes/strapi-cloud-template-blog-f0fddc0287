@@ -464,7 +464,7 @@ export interface ApiEmotionalToolkitEmotionalToolkit
       'api::emotional-toolkit.emotional-toolkit'
     > &
       Schema.Attribute.Private;
-    points: Schema.Attribute.Relation<'oneToMany', 'api::point.point'>;
+    points: Schema.Attribute.Relation<'manyToMany', 'api::point.point'>;
     publishedAt: Schema.Attribute.DateTime;
     sort: Schema.Attribute.Integer;
     title: Schema.Attribute.String &
@@ -710,8 +710,8 @@ export interface ApiPointPoint extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.Text & Schema.Attribute.Required;
-    emotional_toolkit: Schema.Attribute.Relation<
-      'manyToOne',
+    emotional_toolkits: Schema.Attribute.Relation<
+      'manyToMany',
       'api::emotional-toolkit.emotional-toolkit'
     >;
     heading: Schema.Attribute.String & Schema.Attribute.Required;

@@ -23,9 +23,9 @@
     },
     "points": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::point.point",
-      "mappedBy": "emotional_toolkit"
+      "mappedBy": "emotional_toolkits"
     },
     "isPremium": {
       "type": "boolean",

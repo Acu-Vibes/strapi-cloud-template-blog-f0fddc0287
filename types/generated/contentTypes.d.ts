@@ -398,7 +398,13 @@ export interface ApiAcupressureAcupressure extends Struct.CollectionTypeSchema {
       Schema.Attribute.Unique;
     points: Schema.Attribute.Relation<'oneToMany', 'api::point.point'>;
     publishedAt: Schema.Attribute.DateTime;
-    sort: Schema.Attribute.Integer;
+    sort: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -466,7 +472,13 @@ export interface ApiEmotionalToolkitEmotionalToolkit
       Schema.Attribute.Private;
     points: Schema.Attribute.Relation<'manyToMany', 'api::point.point'>;
     publishedAt: Schema.Attribute.DateTime;
-    sort: Schema.Attribute.Integer;
+    sort: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
@@ -754,7 +766,13 @@ export interface ApiProtocolCategoryProtocolCategory
       Schema.Attribute.Private;
     protocols: Schema.Attribute.Relation<'oneToMany', 'api::protocol.protocol'>;
     publishedAt: Schema.Attribute.DateTime;
-    sort: Schema.Attribute.Integer;
+    sort: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
@@ -798,7 +816,13 @@ export interface ApiProtocolProtocol extends Struct.CollectionTypeSchema {
     protocol_settings_heading: Schema.Attribute.String &
       Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
-    sort: Schema.Attribute.Integer;
+    sort: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;
@@ -838,7 +862,13 @@ export interface ApiSeasonalWellnessSeasonalWellness
     >;
     points: Schema.Attribute.Relation<'oneToMany', 'api::point.point'>;
     publishedAt: Schema.Attribute.DateTime;
-    sort: Schema.Attribute.Integer;
+    sort: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     techniques: Schema.Attribute.Relation<
       'oneToMany',
       'api::technique.technique'
@@ -885,7 +915,13 @@ export interface ApiSoundscapeSoundscape extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    sort: Schema.Attribute.Integer;
+    sort: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          min: 0;
+        },
+        number
+      >;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique;

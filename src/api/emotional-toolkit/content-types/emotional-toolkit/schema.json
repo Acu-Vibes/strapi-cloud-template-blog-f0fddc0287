@@ -33,7 +33,8 @@
       "default": false
     },
     "sort": {
-      "type": "integer"
+      "type": "integer",
+      "min": 0
     }
   }
 }

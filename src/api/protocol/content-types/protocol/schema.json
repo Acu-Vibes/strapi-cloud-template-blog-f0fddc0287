@@ -45,7 +45,8 @@
       "inversedBy": "protocols"
     },
     "sort": {
-      "type": "integer"
+      "type": "integer",
+      "min": 0
     }
   }
 }

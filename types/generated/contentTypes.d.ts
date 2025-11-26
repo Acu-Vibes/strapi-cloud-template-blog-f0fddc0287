@@ -598,13 +598,6 @@ export interface ApiGlobalSettingGlobalSetting extends Struct.SingleTypeSchema {
     newPassword_placeholder_confirmPassword: Schema.Attribute.String;
     newPassword_placeholder_newPassword: Schema.Attribute.String;
     newPassword_resetPassword_button_text: Schema.Attribute.String;
-    otp_back_cta_text: Schema.Attribute.String;
-    otp_enterCode_text: Schema.Attribute.String;
-    otp_heading_primary: Schema.Attribute.String;
-    otp_heading_secondary: Schema.Attribute.String;
-    otp_resend_cta_text: Schema.Attribute.String;
-    otp_resend_prompt: Schema.Attribute.String;
-    otp_verify_button_text: Schema.Attribute.String;
     premium_features: Schema.Attribute.Component<'premium.features', true>;
     premium_features_heading: Schema.Attribute.String;
     premium_heading_description: Schema.Attribute.Text;

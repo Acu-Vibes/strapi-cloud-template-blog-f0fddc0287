@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-11-21T12:09:01.965Z"
+    "x-generation-date": "2025-11-26T10:51:05.123Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -10138,27 +10138,6 @@
               "forgotPassword_back_cta_text": {
                 "type": "string"
               },
-              "otp_heading_primary": {
-                "type": "string"
-              },
-              "otp_heading_secondary": {
-                "type": "string"
-              },
-              "otp_resend_prompt": {
-                "type": "string"
-              },
-              "otp_resend_cta_text": {
-                "type": "string"
-              },
-              "otp_enterCode_text": {
-                "type": "string"
-              },
-              "otp_verify_button_text": {
-                "type": "string"
-              },
-              "otp_back_cta_text": {
-                "type": "string"
-              },
               "newPassword_heading_primary": {
                 "type": "string"
               },
@@ -12196,27 +12175,6 @@
             "type": "string"
           },
           "forgotPassword_back_cta_text": {
-            "type": "string"
-          },
-          "otp_heading_primary": {
-            "type": "string"
-          },
-          "otp_heading_secondary": {
-            "type": "string"
-          },
-          "otp_resend_prompt": {
-            "type": "string"
-          },
-          "otp_resend_cta_text": {
-            "type": "string"
-          },
-          "otp_enterCode_text": {
-            "type": "string"
-          },
-          "otp_verify_button_text": {
-            "type": "string"
-          },
-          "otp_back_cta_text": {
             "type": "string"
           },
           "newPassword_heading_primary": {
@@ -15658,27 +15616,6 @@
                   "type": "string"
                 },
                 "forgotPassword_back_cta_text": {
-                  "type": "string"
-                },
-                "otp_heading_primary": {
-                  "type": "string"
-                },
-                "otp_heading_secondary": {
-                  "type": "string"
-                },
-                "otp_resend_prompt": {
-                  "type": "string"
-                },
-                "otp_resend_cta_text": {
-                  "type": "string"
-                },
-                "otp_enterCode_text": {
-                  "type": "string"
-                },
-                "otp_verify_button_text": {
-                  "type": "string"
-                },
-                "otp_back_cta_text": {
                   "type": "string"
                 },
                 "newPassword_heading_primary": {
